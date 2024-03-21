@@ -99,6 +99,8 @@ paths:
                 content:
                 application/json: {}
                 description: sisendparameeter ei ole korrektne
+        x-openapi-router-controller: raamatu_teenus.controllers.default_controller
+        
 
     delete:
       operationId: raamatu_kustutamine
